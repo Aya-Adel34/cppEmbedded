@@ -57,7 +57,7 @@ void ParseStr(const vector<string> &testCases)
             }
         }
         
-        cout << "music " << totalMusicSize << "b " << "images " << totalImgSize << "b " << "movies " << totalMovieSize << "b " << "other " << totalOtherSize << "b\n" ; 
+        cout << " music " << totalMusicSize << "b " << "images " << totalImgSize << "b " << "movies " << totalMovieSize << "b " << "other " << totalOtherSize << "b\n" ; 
         totalMovieSize = totalImgSize = totalMusicSize = totalOtherSize = 0 ;
         sizes.clear();
         extensions.clear();
